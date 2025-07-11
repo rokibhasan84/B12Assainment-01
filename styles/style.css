@@ -25,6 +25,12 @@ body{
     font-size: 20px;
     border: none;
 }
+/* .btn-primary:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition:  s all;
+    padding: 22px 45px;
+} */
 
 
 
@@ -212,13 +218,26 @@ nav{
 
 /* footer styles*/
 footer{
+    background-color: rgba(148, 145, 145, 0.527);
     text-align: center;
     padding-bottom: 130px;
+    padding-top: 120px;
 }
 .footer-logo{
     font-size: 100px;
     font-weight: bold;
+}
+.footer-text{
+    color: #8987A1;
+}
+.footer-content{
+    padding-bottom: 20px;
+}
 
+.footer-links a{
+    color: #8987A1;
+    text-decoration: none;
+    padding-right: 30px;
 }
 
 
