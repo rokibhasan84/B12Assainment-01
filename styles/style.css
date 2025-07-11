@@ -25,12 +25,12 @@ body{
     font-size: 20px;
     border: none;
 }
-/* .btn-primary:hover{
-    background-color: aqua;
+.btn-primary:hover{
+    background-color: #287704;
     cursor: pointer;
-    transition:  s all;
+    transition:  0.5s all;
     padding: 22px 45px;
-} */
+}
 
 
 
@@ -64,8 +64,12 @@ nav{
     text-decoration: none;
     font-size: 25px;
     color: #4E47FF;
+    font-weight: bold;
 
 }
+/* .logo span{
+    color: #287704;
+} */
 .banner{
     width: 100%;
     padding: 152px 0px;
