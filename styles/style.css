@@ -24,11 +24,12 @@ body{
     border-radius: 10px;
     font-size: 20px;
     border: none;
+    transition: 1s all;
 }
 .btn-primary:hover{
-    background-color: #287704;
+    background-image: linear-gradient(to right, #7899f4, #287704);
+    /* background-color: #287704; */
     cursor: pointer;
-    transition:  0.5s all;
     padding: 22px 45px;
 }
 
