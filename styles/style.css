@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: rgb(224, 241, 236);
+}
 
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
@@ -72,9 +74,10 @@ nav{
 .action-container{
     display: flex;
     justify-content: space-between;
+    gap: 130px;
 }
 .action-text{
-    width: 500px;
+    width: 50%;
     margin: 75px auto;
 }
 .section-title{
@@ -91,4 +94,133 @@ nav{
 .action-image img{
     border-radius: 48px;
 }
+/* Productive section */
+.productives-container{
+    background-color: #dcdcfa;
+    text-align: center;
+    border-radius: 20px;
+}
+.productives-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.productives-items{
+    display: flex;
+    justify-content:center ;
+}
+.productives-item{
+    padding: 50px 70px;
+}
+.productives-item h4{
+    font-size: 78px;
+    color: #4E47FF;
+}
+.productives-item p{
+    color: #000000;
+    opacity: 50%;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+
+
+/* Users feedback */
+.feedback-title{
+    text-align: center;
+    color: #252432;
+    padding-bottom: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.feedback-items{
+    display: flex;
+    gap: 20px;
+}
+.feedback-item{
+    background-color: #f1eded89;
+    border-radius: 15px;
+    padding: 20px;
+}
+.feedback-description, .user-name span{
+    color: #000000;
+    opacity: 50%;
+}
+
+.feedback-sub-title{
+    color: #1E1E1E;
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+.user-info{
+    padding-top: 24px;
+    display: flex;
+}
+.user-info img{
+    border-radius: 50%;
+    padding-right: 15px;
+}
+
+
+/* Form section */
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-container{
+    display: flex;
+    padding: 20px 0px;
+    gap: 100px;
+}
+.form-column{
+    width: 50%;
+    margin: auto 0px;
+}
+.form-column label{
+    display: block;
+    margin: 15px 0px ;
+}
+.form-column input{
+    display: block;
+    border-radius: 5px;
+    height: 50px;
+    width: 485px;
+    padding-left: 15px;
+    border: none;
+}
+/* .form-column input[type="text"]{
+    display: block;
+    border-radius: 5px;
+    height: 50px;
+    width: 485px;
+    padding-left: 15px;
+} */
+.form-column textarea{
+    display: block;
+    border-radius: 5px;
+    height: 150px;
+    width: 485px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border: none;
+
+}
+.form-column button{
+    margin-top: 15px;
+    width: 500px;
+}
+
+/* footer styles*/
+footer{
+    text-align: center;
+    padding-bottom: 130px;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: bold;
+
+}
+
+
+
 
