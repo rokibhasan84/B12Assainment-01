@@ -149,7 +149,7 @@ nav{
     gap: 20px;
 }
 .feedback-item{
-    background-color: #f1eded89;
+    background-color: aliceblue;
     border-radius: 15px;
     padding: 20px;
 }
@@ -243,7 +243,7 @@ nav{
 
 /* footer styles*/
 footer{
-    background-color: rgba(148, 145, 145, 0.527);
+    background-color: #f1eded89;
     text-align: center;
     padding-bottom: 130px;
     padding-top: 120px;
